@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <meta charset="UFT-8">
+        <meta name="viewport" content ="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Style.css">
+        <title>
+            Canteen Pub And Grub!
+        </title>
+
+    </head>
+    <body>
+        <section class="showcase">
+            <header>
+                <h2 class="logo">Canteen Pub & Grub</h2>
+                <div class="toggle"></div>
+            </header>
+            <video src="happyhours.mp4.MP4" muted loop autoplay></video>
+            
+            <div class="overlay"></div>
+
+            <div class="text">
+                <h2>Happy Hours!</h2>
+                <h3>Best Pub with Best ambience!</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur aperiam ratione consectetur. Veniam, unde nisi. Odit doloribus suscipit distinctio nemo itaque eos consequuntur. Similique eaque consectetur alias ipsam nemo quas!</p>
+                <a href="menu.html">Explore</a>
+            </div>
+            <ul class="social">
+                <li><a href="https://www.facebook.com/canteenpubandgrub/"><img src="facebook.png" alt=""></a></li>
+                <li><a href="https://www.instagram.com/canteenpubandgrub/?hl=en"><img src="instagram.png" alt=""></a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=7003474297"><img src="whatsapp.png" alt=""></a></li>
+            </ul>
+            <div class="menu">
+                <ul>
+                    <li><a href="C:\Users\Alex\Documents\JS\canteen menu\menu.html">Home</a></li>
+                    <li><a href="https://www.facebook.com/canteenpubandgrub/photos/?ref=page_internal">Images</a></li>
+                    <li><a href="https://www.facebook.com/canteenpubandgrub/events/?ref=page_internal">Blog</a></li>
+                    <li><a href="https://api.whatsapp.com/send?phone=7003474297">Contact</a></li>
+                </ul>
+            </div>
+        </section>
+    <script>
+        const menuToggle=document.querySelector('.toggle')
+        const showcase=document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click', () =>{
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
+    </body>
+
+    
+
+</html>
+
